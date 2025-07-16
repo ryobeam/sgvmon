@@ -1,8 +1,7 @@
-
-
 # カーソル点滅を消す
 setterm -cursor off | sudo tee /dev/tty0 > /dev/null
 
 # lightdm を止める 画面が消去されるため
 sudo systemctl stop lightdm
 
+####
