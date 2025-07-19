@@ -8,6 +8,8 @@
 ```bash
 $ Git clone https://github.com/ryobeam/sgvmon.git  
 $ uv sync  
-$ cd sgvmon  
+$ cd sgvmon
+$ cp .env.exsample .env
+$ cd sgvmon
 $ uv run sgvmon.py  
 ```
